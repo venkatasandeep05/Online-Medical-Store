@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Poppins:wght@100&display=swap");
+
+.navbarContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 0px 90px;
+  color: black;
+  height: 70px;
+  border-bottom: 1px solid #ebeaea;
+}
+
+.navbarBrand {
+  display: flex;
+  flex: 2;
+  align-items: center;
+  justify-items: flex-start;
+}
+
+.navbarBrandImage {
+  width: 50px;
+  height: 50px;
+}
+
+.navbarBrandText {
+  font-size: 1rem;
+  font-weight: bolder;
+  font-size: larger;
+  margin-left: -5px;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbarSearchBox {
+  display: flex;
+  align-items: center;
+  flex: 4;
+  justify-items: flex-start;
+  padding-left: 20px;
+  border-radius: 20px;
+  background-color: rgb(244, 244, 244);
+  margin-left: 30px;
+}
+
+.navbarSearchBoxInput {
+  width: 90%;
+  height: 40px;
+  border: none;
+  background-color: transparent;
+  color: rgb(120, 120, 120);
+  font-weight: 400;
+}
+
+.navbarSearchBoxInput:focus {
+  border: none;
+  outline: none;
+}
+
+.navbarSearchBoxIcon {
+  color: #000000;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.navbarMenu {
+  display: flex;
+  flex: 5;
+  align-content: center;
+  list-style: none;
+  margin-left: 10px;
+  font-weight: bold;
+  justify-content: flex-start;
+  height: 100%;
+}
+
+.navbarMenuItem {
+  font-size: 1.15rem;
+  cursor: pointer;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight:  600;
+}
+.navbarMenuItem:hover {
+  background-color: rgb(216, 216, 216);
+}
+
+.navbarCart {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.navbarCartCount {
+  font-size: 1rem;
+  font-weight: bold;
+  color: black;
+}
+
+.dropdown{
+  z-index: 100;
+  background-color: white;
+  height: 30px;
+  border-top:2px solid  #ebeaea;
+  border-radius: 7px;
+}

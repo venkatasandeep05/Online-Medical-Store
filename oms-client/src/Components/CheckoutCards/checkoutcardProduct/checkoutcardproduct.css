@@ -1,0 +1,77 @@
+.product-name {
+    font-size: smaller;
+    font-weight: 500;
+}
+
+.product-price {
+    font-size: 1.3rem;
+    font-weight: 400;
+    text-align: right;
+}
+
+.product-description {
+    font-size: small;
+    color: #A9A9A9;
+    margin-top: -10px;
+}
+
+.continue-shopping-info-inner {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #d4d4d4;
+    height: fit-content !important;
+    margin-bottom: 10px;
+}
+
+.continue-shopping-info-inner > p {
+    display: flex;
+    justify-content: space-between;
+}
+
+.quantity {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0%;
+}
+
+.quantity > input {
+    width: 20%;
+    height: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.addButton{
+    width: 20px;
+    height: 20px;
+    background-color: #FE6F60;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    display:flex;
+    justify-content: center;
+    font-size: smaller;
+    font-weight: 500;
+    cursor: pointer;
+    align-items: center;
+}
+
+.subtractButton{
+    width: 20px;
+    height: 20px;
+    background-color: #e69c93;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    display:flex;
+    justify-content: center;
+    font-size: smaller;
+    font-weight: 500;
+    cursor: pointer;
+    align-items: center;
+}

@@ -1,0 +1,23 @@
+.footer {
+    display: grid;
+    align-content: center;
+    padding-left: auto;
+    padding-right: auto;
+    background-color: #FEFCF7;
+}
+
+.copyright {
+    border-top: 1px solid #FEFCF7;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.copyright > p {
+    text-align: center;
+    padding: 5px;
+    font-size: small;
+    color: #98A3A6;
+    font-weight: 600;
+}

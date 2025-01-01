@@ -1,0 +1,75 @@
+.continue-shopping-info > strong {
+    font-size: medium;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.continue-shopping-info > p {
+    padding-top: 3px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+
+
+.inner_container {
+    background-color: #ffffff !important;
+    height: auto;
+    margin-top:  10%;
+}
+
+.title > p {
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: large;
+}
+
+
+.container_bill {
+    background-color: #575CBA;
+    border-radius: 20px;
+    padding: 20px !important;
+    padding-bottom: 5px;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+    height: fit-content !important;
+    width: 30% !important;
+}
+
+.container_subtotal_inner > p {
+    display: flex;
+	justify-content: space-between;
+    color: #ffffff;
+    font-size: medium;
+}
+
+.container_subtotal_inner > p > strong {
+    font-weight: bold;
+    font-size: smaller;
+}
+
+
+.place-order {
+    height: auto;
+    background-color: #54E0C1 !important;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.place-order > p {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    color: #ffffff;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: 600;
+    font-size: larger;
+}
+

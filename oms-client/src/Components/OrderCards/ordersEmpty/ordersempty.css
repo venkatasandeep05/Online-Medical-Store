@@ -1,0 +1,36 @@
+.orders {
+    background-color: rgb(237, 237, 237);
+    position: relative;
+    height: max-content;
+    min-height: 100vh;
+    max-width: 1600px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding: 5%;
+    padding-top: 0%;
+}
+
+.jumbotron {
+    margin-top: 10%;
+    border-radius: 10px;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #e8e8e8;
+}
+
+.btn {
+    color: #FF6F61 !important;
+    font-weight: 600;
+    background-color: transparent;
+    text-align: right;
+    padding: 2px;
+}
+
+.no-hover{
+    background-color: unset !important;
+    color: unset ;
+    border: none !important;
+}

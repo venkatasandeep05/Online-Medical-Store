@@ -1,0 +1,104 @@
+.loginBackground {
+  display: flex;
+  width: 100vw;
+  height: 100%;
+  backdrop-filter: blur(50px);
+  position: absolute;
+  top: 0vh;
+  background-color: rgba(0, 0, 0, 0.496);
+  left: 0vw;
+  padding-top: 40px;
+  overflow: hidden;
+  position: fixed;
+ justify-content: center;
+}
+.loginContainer {
+  background-color: rgb(245, 241, 241);
+  width: 47vw;
+  height: 60vh;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  border-radius: 7px;
+  -webkit-box-shadow: 12px 13px 25px -12px rgba(48, 48, 48, 0.75);
+  -moz-box-shadow: 12px 13px 25px -12px rgba(109, 108, 108, 0.75);
+  box-shadow: 12px 13px 25px -12px rgba(115, 112, 112, 0.75);
+  position: relative;
+}
+
+
+.loginCloseButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 1.5rem !important;
+}
+
+.loginImage {
+  width: 50%;
+  height: 100%;
+  border-radius: 7px 0px 0px 7px;
+}
+
+.loginForm {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.loginFormTitle {
+  position: absolute;
+  top: 30px;
+  left: 56%;
+  font-weight: bolder;
+  font-size: 2rem !important;
+}
+.loginFormInput {
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid rgb(236, 236, 236);
+  padding: 0px 10px;
+  margin-bottom: 10px;
+  font-size: 1rem;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+}
+
+.loginFormInput:focus {
+  border: 3px solid rgba(52, 118, 210, 0.599);
+  outline: none;
+}
+
+.loginFormShowPassword {
+  cursor: pointer;
+  font-size: 0.9rem;
+  align-self: bottom;
+  margin-left: 5px;
+  font-weight: bold;
+  padding-bottom: 4px;
+}
+
+.loginFormButton {
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid rgb(200, 200, 200);
+  padding: 0px 10px;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  color: white;
+  background-color: #017aff;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.loginFormText {
+  margin-top: 40px;
+}

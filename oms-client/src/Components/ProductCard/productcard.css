@@ -1,0 +1,74 @@
+.card {
+    -webkit-box-shadow: 20px 12px 14px -1px rgba(47, 46, 46, 0.75);
+    -moz-box-shadow: 20px 32px 25px -20px rgba(92, 91, 91, 0.75);
+    box-shadow: 10px 10px 20px -15px rgba(115, 112, 112, 0.75);
+    border: none;
+}
+
+.card-title {
+    font-weight: 400;
+    font-size: medium;
+}
+
+.description {
+    color: #767676;
+    font-size: small;
+}
+
+.rating {
+    margin-top: -15px;
+}
+
+.rating > small {
+    background-color: #1BAB2A;
+    color: aliceblue;
+    border-radius: 2px;
+    padding: 2px;
+    font-size: small;
+}
+
+.rating > strong {
+    font-size: small;
+    margin-left: 4px;
+    color: #767676;
+    font-weight: 400;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -2px;
+    width: 100%;
+}
+
+.price > div > strong {
+    font-weight: 400;
+    font-size: large;
+}
+
+.price > div >  small {
+    padding-left: 3px;
+    font-size: large;
+}
+
+.btn {
+    color: #FF6F61 !important;
+    font-weight: 600;
+    background-color: transparent;
+    text-align: right;
+    padding: 2px;
+}
+
+.noHover{
+    background-color: unset !important;
+    color: unset ;
+    border: none !important;
+}
+
+.card-image{
+    width: 100%;
+    height: 190px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
